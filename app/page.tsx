@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="flex h-screen max-h-screen">
+      <section className="container remove-scrollbar my-auto">
+        <div className="sub-container max-w-[496px]"></div>
+      </section>
     </div>
   );
 }
