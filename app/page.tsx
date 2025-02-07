@@ -13,9 +13,9 @@ export default function Home() {
               height={1000}
               width={1000}
               alt="patient"
-              className=" h-10 w-fit "
+              className=" h-16 w-fit "
             />
-            <h1 className="text-2xl font-bold"> AlphaCare</h1>
+            <h1 className="text-[45px] mb-1 font-bold"> AlphaCare</h1>
           </div>
           <PatientForm />
           <div className="text-14-regular mt-20 flex justify-between">
